@@ -3,10 +3,10 @@
 The alpha-Fe function uses to interpolate grain boundary energy for BCC Fe metal, which is estimated via based on RSW function.
 The function is computed though MATLAB code version R2022a.
 
-To estimate grain boundary energy, the inputs consist of 
-1. input data file (fnData) that contain 18 columns of the orientations in the two grains (P and Q) 
-2. coherent twin grain boundary energy (GBE_coh_twin) in unit of J/m<sup> 2 </sup>
-3. type of 'alkali' or 'transition' BCC metals (type).
+<B> Citation:</B> Sarochawikasit, R., Wang, C., Kumam, P., Beladi, H., Okita, T., Rohrer, G. S., & Ratanaphan, S. (2021). Grain boundary energy function for α iron. Materialia, 19, 101186. DOI: https://doi.org/10.1016/j.mtla.2021.101186
+
+To estimate grain boundary energy, the inputs consist of input data file (fnData) that contain 18 columns of the orientations in the two grains (P and Q).
+
 
 Command 
 ```
